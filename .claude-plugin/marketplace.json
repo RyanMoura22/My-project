@@ -1,0 +1,11 @@
+{
+  "name": "omniroute-local",
+  "owner": { "name": "Ryan" },
+  "plugins": [
+    {
+      "name": "omniroute",
+      "source": "./",
+      "description": "Ferramentas MCP do gateway OmniRoute, comandos de status/modelos e skill"
+    }
+  ]
+}

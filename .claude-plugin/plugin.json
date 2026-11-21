@@ -1,0 +1,10 @@
+{
+  "name": "omniroute",
+  "version": "0.1.0",
+  "description": "Use o OmniRoute (gateway de IA local) no Claude Code: ferramentas MCP para roteamento, provedores, combos, cache, compressão e uso, além de comandos de status e configuração.",
+  "author": { "name": "Ryan" },
+  "homepage": "https://github.com/cheaper-inference/OmniRoute",
+  "repository": "https://github.com/cheaper-inference/OmniRoute",
+  "license": "MIT",
+  "keywords": ["omniroute", "gateway", "llm-routing", "mcp"]
+}

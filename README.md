@@ -19,11 +19,18 @@ Conecta o Claude Code a um gateway [OmniRoute](https://github.com/cheaper-infere
 - `omniroute mcp enable --transport streamable-http`
 - Variáveis de ambiente: `OMNIROUTE_API_KEY` (obrigatória), `OMNIROUTE_URL` (opcional, padrão `http://localhost:20128`)
 
-## Instalação local
+## Instalação
+
+No Claude Code, execute:
 
 ```
-/plugin marketplace add C:/Users/Ryan/Desktop/GTA/omniroute-plugin
+/plugin marketplace add RyanMoura22/My-project
 /plugin install omniroute@omniroute-local
 ```
 
-Ou só para uma sessão: `claude --plugin-dir C:/Users/Ryan/Desktop/GTA/omniroute-plugin`
+Ou, para testar só numa sessão, clone o repositório e aponte para a pasta:
+
+```
+git clone https://github.com/RyanMoura22/My-project.git
+claude --plugin-dir ./My-project
+```
